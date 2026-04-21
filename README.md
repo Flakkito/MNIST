@@ -29,6 +29,8 @@ Dense(10,  activation='softmax')   ← digit probabilities 0–9
 | Test Accuracy | **97.40%** |
 | Test Loss | 0.10 |
 
+![Confusion Matrix](images/confusion_matrix.png)
+
 ## Visualizer
 
 `MNIST_visualizer.py` loads the trained model and displays three panels in real time:
@@ -46,6 +48,8 @@ Dense(10,  activation='softmax')   ← digit probabilities 0–9
 | `Q` / `ESC` | Quit |
 
 Auto-advance every 2.6 seconds.
+
+![Visualizer](images/visualizer.png)
 
 ## Project Structure
 ```
